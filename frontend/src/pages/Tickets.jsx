@@ -31,9 +31,9 @@ function Tickets() {
   }
   return (
     <>
-      <BackButton url="/" />
+      <BackButton />
       <h1>Tickets</h1>
-      <div className="ticket">
+      <div className="tickets">
         <div className="ticket-headings">
           <div>Date</div>
           <div>Product</div>
